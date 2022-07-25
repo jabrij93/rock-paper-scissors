@@ -5,10 +5,50 @@
     <head>
         <meta charset="utf-8">
         <title>Project Rock Paper Scissors</title>
-        <script src = "javascript.js"> </script>
+        <script src = "javascript.js" defer> </script>
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
+
+        <div class="headercontainer">
+            <h1 class="header"> Rock </h1>
+            <h1 class="header"> Paper </h1>
+            <h1 class="header"> Scissor </h1>
+        </div>
+
+        <div class="scoreboard">
+            <div class="badge" id="player"> Player </div>
+
+            <div class="scoreboardContainer">
+                <span id="user-score"> 0 </span> : <span id ="computer-score"> 0 </span>
+             </div>
+             
+             <div class="badge" id="computer"> Computer </div> 
+        </div>
+
+        <div class="message">
+            <p id="win"> LET'S PLAY ! </p>
+        </div>
+
+        <div class="options">
+            <div class="options" id="rock" >
+                <img src="rock.png">
+            </div>
+            <div class="options" id ="paper">
+                <img src="paper.png" alt="">
+            </div>
+            <div class="options" id ="scissor">
+                <img src="scissor.png" alt="">
+            </div>
+        </div>
+
+        <div class="message2" >
+            <p id="deco"> PICK ONE, GO ! </p>
+        </div>
+
+    
+        
     </body>
 
 </html>
